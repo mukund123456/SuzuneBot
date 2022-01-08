@@ -1,5 +1,5 @@
 ## Suzune Robot 
-Made And Managed By [Me](https://t.me/DesiNobita) On Telegram [.](https://telegra.ph/file/3a28520cb98181779349f.mp4)
+Made And Managed By [Me](https://t.me/LEGEND_MUKUND) On Telegram [.](https://telegra.ph/file/9233cbec3c6371ba297cc.mp4)
 
 ## Group Management 
 
@@ -9,20 +9,20 @@ Can be found on telegram as GroupManager.
 
 Alternatively, find me on telegram! (Keep all support questions in the support chat, where more people can help you.)
 
-You can also join our support group [here](https://t.me/Suzune_Support)
+You can also join our support group [here](https://t.me/Alienxsupport)
 
 ## Deploy To Heroku
-[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/desinobita/suzunerobot)
+[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mukund123456/alienx)
 
 ## Bot
-Available On Telegram As [𝐒ᴜᴢᴜɴᴇ 𝐇ᴏʀɪᴋɪᴛᴀ](https://t.me/Suzune_Superbot)
+Available On Telegram As [𝐀𝐋𝐈𝐄𝐍™ 𝐗](https://t.me/ALIEN_ROBOT)
 
 ## Report Error 
-Report your problem along with your name to [this group](https://t.me/Suzune_Support)
+Report your problem along with your name to [this group](https://t.me/Alienxsupport)
 
 ## Credits
  
- Nobita
- Axel
- Rizoel
+ Mukund
+ Parth
+ Mayank
  **Realme**
