@@ -111,7 +111,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Alien X.modules." + module_name)
+    imported_module = importlib.import_module("SuzuneBot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ᴀᴅᴅ 𝐒ᴜᴢᴜɴᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ️➕️",
+                                text="➕ᴀᴅᴅ 𝙰𝙻𝙸𝙴𝙽 𝚇 Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ️➕️",
                                 url="t.me/ALIEN_ROBOT?startgroup=true".format(
                                     context.bot.username
                                 ),
