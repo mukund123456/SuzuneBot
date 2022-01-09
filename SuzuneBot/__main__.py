@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SuzuneBot import (
+from Alien X import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -24,9 +24,9 @@ from SuzuneBot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SuzuneBot.modules import ALL_MODULES
-from SuzuneBot.modules.helper_funcs.chat_status import is_user_admin
-from SuzuneBot.modules.helper_funcs.misc import paginate_modules
+from Alien X.modules import ALL_MODULES
+from Alien X.modules.helper_funcs.chat_status import is_user_admin
+from SAlien X.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -73,31 +73,31 @@ def get_readable_time(seconds: int) -> str:
 
 #kang with Credit Bitches
 PM_START_TEXT = """
-𝐇𝐞𝐥𝐥𝐨 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐬𝐮𝐳𝐮𝐧𝐞 𝐭𝐡𝐢𝐬 𝐬𝐢𝐝𝐞. 𝐀𝐬 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐭𝐡𝐚𝐭 𝐦𝐲 𝐝𝐫𝐞𝐚𝐦 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐢𝐧 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐬𝐨 𝐢𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐛𝐨𝐭.
-
+𝕸𝖀𝕶𝖀𝕹𝕯 𝕺𝕻
+Aᴍ Vᴇʀʏ Fᴀꜱᴛ ʙᴏᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ | Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ !!!
 𝐏𝐫𝐞𝐬𝐬 /help 𝐓𝐨 𝐒𝐞𝐞 𝐀𝐥𝐥 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐋𝐢𝐬𝐭.
 """
 G_START_TEXT = """
-Hello Suzune Is Here.
+𝐀𝐥𝐢𝐞𝐧𝐬 𝐍𝐞𝐯𝐞𝐫 𝐃𝐢𝐞.
 Uptime - {}!
 """
 
 HELP_STRINGS = """
 Hello My name is *{}*.
-Here's The Settings Of This Bot[.](https://telegra.ph/file/3f5b509b1ebf57ecba47d.jpg)
+Here's The Settings Of This Bot[.](https://telegra.ph/file/67badbd87d2174e6c00c8.jpg)
 
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SuzuneBot_IMG = "https://telegra.ph/file/a3868caeaf1b3e55ccc90.jpg"
+AlienBot_IMG = "https://telegra.ph/file/67badbd87d2174e6c00c8.jpg"
 
-SuzuneBotG_IMG = "https://telegra.ph/file/819b0d3b4d55636d19f59.jpg"
+AlienBotG_IMG = "https://telegra.ph/file/67badbd87d2174e6c00c8.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [Nobita](https://t.me/TheNobita).
- Those who cannot provide monetary support are welcome to help us develop the bot at @VegaCodes.
+ You can support the project by contacting [Nobita](https://t.me/LEGEND_MUKUND).
+ Those who cannot provide monetary support are welcome to help us develop the bot at @LEGEND_MUKUND.
  """
 
 IMPORTED = {}
@@ -111,7 +111,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("SuzuneBot.modules." + module_name)
+    imported_module = importlib.import_module("Alien X.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="➕ᴀᴅᴅ 𝐒ᴜᴢᴜɴᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ️➕️",
-                                url="t.me/Suzune_Superbot?startgroup=true".format(
+                                url="t.me/ALIEN_ROBOT?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
@@ -224,17 +224,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/Alienalive",
                             ),
                             InlineKeyboardButton(
                                 text="ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ️",
-                                url="https://t.me/SuzuneSuperbot",
+                                url="https://t.me/Alienxupdate",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="ᴅᴇᴠs️",
-                                url="https://t.me/SuzuneSuperbot/4",
+                                url="https://t.me/Alienxupdate/2",
                             ),
                         ],
                     ]
@@ -569,7 +569,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1100735944 and DONATION_LINK:
+        if OWNER_ID != 2006619406 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
