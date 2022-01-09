@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
-                                url=f"https://t.me/Alienalive",
+                                url=f"https://t.me/Alienxsupport",
                             ),
                             InlineKeyboardButton(
                                 text="ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ️",
