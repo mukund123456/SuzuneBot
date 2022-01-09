@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from Alien X import (
+from SuzuneBot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -24,9 +24,9 @@ from Alien X import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Alien X.modules import ALL_MODULES
-from Alien X.modules.helper_funcs.chat_status import is_user_admin
-from SAlien X.modules.helper_funcs.misc import paginate_modules
+from SuzuneBot.modules import ALL_MODULES
+from SuzuneBot.modules.helper_funcs.chat_status import is_user_admin
+from SuzuneBot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
