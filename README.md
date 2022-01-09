@@ -12,7 +12,7 @@ Alternatively, find me on telegram! (Keep all support questions in the support 
 You can also join our support group [here](https://t.me/Alienxsupport)
 
 ## Deploy To Heroku
-[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mukund123456/alienx)
+[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mukund123456/SuzuneRobot)
 
 ## Bot
 Available On Telegram As [𝐀𝐋𝐈𝐄𝐍™ 𝐗](https://t.me/ALIEN_ROBOT)
