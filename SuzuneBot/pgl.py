@@ -1,10 +1,10 @@
 from telethon import events
-from Alien X import telethn
+from SuzuneBot import telethn
 
 """Triggers start command in pm and in groupchats"""
 
 
-def Alien X(**args):
+def SuzuneBot(**args):
     """New message."""
     pattern = args.get("pattern", None)
     r_pattern = r"^[/!]"
