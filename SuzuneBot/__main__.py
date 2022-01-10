@@ -96,7 +96,7 @@ AlienBot_IMG = "https://telegra.ph/file/67badbd87d2174e6c00c8.jpg"
 AlienBotG_IMG = "https://telegra.ph/file/67badbd87d2174e6c00c8.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [Nobita](https://t.me/LEGEND_MUKUND).
+ You can support the project by contacting [Mukund](https://t.me/LEGEND_MUKUND).
  Those who cannot provide monetary support are welcome to help us develop the bot at @LEGEND_MUKUND.
  """
 
